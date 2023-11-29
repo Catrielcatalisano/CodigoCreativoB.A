@@ -1,0 +1,201 @@
+/* Estilos generales */
+*{
+margin: 0;
+padding: 0;
+box-sizing:content-box;
+}
+html {
+    font-size: 12px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: url(https://th.bing.com/th/id/OIP.ifNnPhiP8cgELlJHTkg0RAHaEU?w=291&h=180&c=7&r=0&o=5&pid=1.7);
+    max-width: 100%;
+}
+header {
+    background-color: #aaaaaa;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 15px;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/Fondos-web.jpg);
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 80 px 1fr 180px;
+        color: #fff;
+        font-style: oblique;
+        font-stretch: expanded  ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 30px;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de sección */
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Estilos de formulario de contacto */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos de pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer img {
+    max-width: 30px;
+    display: grid contents;
+}
+footer p {
+    font-size: 15px;
+}
+/* Estilos de formulario de contacto */
+#contacto {
+    max-width: 100vh;
+    position: absolute;
+    margin: solid 10%;
+    border-color: yellow;
+    border: solid;
+align-content: center;
+text-align: center;
+
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+#blog {
+    grid-template-rows: 2;
+    overflow-x: auto;
+  }
+  
+  #blog img {
+    width: 250px; /* Ancho fijo para cada imagen */
+    height: auto;
+    margin-right: 10px; /* Espacio entre las imágenes */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  #blog img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+    filter: blur(0); /* Elimina el desenfoque al pasar el cursor */
+  }
+  
+  #blog img:not(:hover) {
+    filter: blur(3px); /* Aplica un desenfoque a las imágenes no seleccionadas */
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .paragraph-section {
+    max-width: 100%;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.paragraph-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.paragraph-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.paragraph-section a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px solid #007bff;
+}
+
+.paragraph-section a:hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}
