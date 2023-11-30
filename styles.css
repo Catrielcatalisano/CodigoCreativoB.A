@@ -70,21 +70,34 @@ form {
 
 /* Estilos de pie de página */
 
+/* Estilos para el footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1px 0;
+    background-color: #fffdfd;
+    color: #040404;
+    text-align: center; /* Alineación del texto en el centro */
+    align-items: center; /* Centrar verticalmente el contenido */
+    padding: 5px 0; /* Relleno interno del footer */
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 10px;
+    display: flex; /* Utilizar flexbox para alinear elementos uno al lado del otro */
+    justify-content: center; /* Alinear elementos uno al lado del otro con espacio entre ellos */
 }
+
+/* Estilos para la imagen en el footer */
 footer img {
     max-width: 30px;
-    display: grid contents;
+    width: 50px; /* Ancho de la imagen */
+    height: auto; /* Mantener la proporción original al ajustar el ancho */
+    margin-right: 10px; /* Márgenes derechos para separar la imagen del texto */
+    justify-content: center;
 }
+
+/* Estilos para el texto en el footer */
 footer p {
-    font-size: 15px;
+    font-size: 15px; /* Tamaño de fuente */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Estilos de formulario de contacto */
 #contacto {
