@@ -152,7 +152,7 @@ input[type="submit"]:hover {
     width: 250px; /* Ancho fijo para cada imagen */
     height: auto;
     margin-right: 10px; /* Espacio entre las imágenes */
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out, filter 0.3s ease-in-out;
   }
   
   #blog img:hover {
@@ -161,7 +161,7 @@ input[type="submit"]:hover {
   }
   
   #blog img:not(:hover) {
-    filter: blur(3px); /* Aplica un desenfoque a las imágenes no seleccionadas */
+    filter: blur(0.5px); /* Aplica un desenfoque a las imágenes no seleccionadas */
   }
   
   button {
