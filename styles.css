@@ -199,3 +199,9 @@ input[type="submit"]:hover {
     color: #0056b3;
     border-bottom-color: #0056b3;
 }
+#reloj {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
