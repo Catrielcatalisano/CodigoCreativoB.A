@@ -12,8 +12,8 @@ body {
     font-size: 1rem;
     margin: 0;
     padding: 10px;
-    box-sizing: border-box;
-    background-image: url(https://th.bing.com/th/id/OIP.ifNnPhiP8cgELlJHTkg0RAHaEU?w=291&h=180&c=7&r=0&o=5&pid=1.7);
+    box-sizing:content-box;
+    background-color:azure;
     max-width: 100%;
 }
 header {
@@ -32,7 +32,7 @@ header {
         "main"
         "footer";
         grid-template-rows: 80 px 1fr 180px;
-        color: #fff;
+        color: #181616;
         font-style: oblique;
         font-stretch: expanded  ;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -161,7 +161,7 @@ input[type="submit"]:hover {
   }
   
   #blog img:not(:hover) {
-    filter: blur(0.5px); /* Aplica un desenfoque a las imágenes no seleccionadas */
+    filter: blur(); /* Aplica un desenfoque a las imágenes no seleccionadas */
   }
   
   button {
